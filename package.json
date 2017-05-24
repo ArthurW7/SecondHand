@@ -1,0 +1,19 @@
+{
+  "name": "secondhand",
+  "version": "1.0.0",
+  "description": "Second Hand's first version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurW7/SecondHand.git"
+  },
+  "author": "ArthurW e RafaelF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurW7/SecondHand/issues"
+  },
+  "homepage": "https://github.com/ArthurW7/SecondHand#readme"
+}
