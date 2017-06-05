@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= "SecondHand - Login"
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    
+    
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    block estilos
+  
+  body
+    div(class="container")
+        h1 Digite o seu E-mail e a senha:
+        div(class="form-group")
+            form
+                div(style="margin: 10px;")
+                    input(id="Email", class="form-control col-6 input-cadastro", type='email', placeholder='E-mail', required)
+                    input(id="Senha", class="form-control col-6 input-cadastro", type='password', placeholder='Senha', required)
+                input(type="submit" value="Entrar" name="login")
