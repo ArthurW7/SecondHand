@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/cadastro', function(req, res, next){
-  res.render('cadastro');
+  res.render('home/cadastro/cadastro');
 });
 
 router.get('', function(req, res, next){
