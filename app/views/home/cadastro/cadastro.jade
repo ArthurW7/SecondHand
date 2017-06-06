@@ -7,7 +7,7 @@ block content
 
     h1(style="text-align: center") Só precisamos de algumas informações
 
-    div(class="box-cadastro")
+    div(class="box-cadastro" style="background-color:#f2f2f2; border-radius: 5px; padding: 15px")
       form
         div(class="form-group")
           div(style="margin: 10px;")
@@ -22,11 +22,14 @@ block content
           div(style="margin: 10px;")
             label(for="senha") Senha
             input(id="senha" class="form-control col-4 input-cadastro", type="password", placeholder="Senha", required)
+          div(style="margin: 10px;")
             label(for="senha") Confirme a Senha
             input(id="senha" class="form-control col-4 input-cadastro", type="password", placeholder="Confirmar a senha", required)
 
-          //-div(style="margin: 30px;")
-              input(type="checkbox" value="concordo") Concordo com os termos de serviço.
+          div(style="margin: 30px;")
+            input(type='checkbox', name='termo', value='concordo', required)
+            |  Concordo com os 
+            a(href='#') termos de uso.
 
           div(style="margin: 30px;")
             input(type="submit" class="btn btn-primary" style="width: 50%;", value="Cadastrar")
